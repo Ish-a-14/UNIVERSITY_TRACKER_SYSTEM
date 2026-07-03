@@ -1,40 +1,105 @@
-UNIVERSITY_COMPLAINT_TRACKER
-University Complaint Tracker is a Java Swing and MySQL based desktop application developed to manage and track university complaints efficiently. The system allows faculty members to register complaints related to infrastructure, laboratories, electrical issues, internet problems, classroom facilities, and more, while administrators can monitor, manage, and resolve those complaints through a dedicated dashboard.
+# 🎓 University Complaint Tracker System
 
-Features
-Faculty Module
-Faculty Registration & Login
-Submit Complaints
-Edit/Delete Own Complaints
-Complaint Priority Selection (Low/Medium/High)
-View Complaint Status
-Logout System
-Admin Module
-Secure Admin Login
-View All Complaints
-Search Complaints by Category
-View Faculty Name & Department
-Resolve Complaints
-Priority-Based Complaint Highlighting
-Complaint Date & Status Tracking
-Technologies Used
-Java Swing (Frontend UI)
-Java JDBC
-MySQL Database
-VS Code
-MySQL Workbench
-Database Tables
-users
-complaints
-Project Highlights
-Role-Based Login System
-Session Management
-CRUD Operations
-Clean UI Design
-Real-Time Database Connectivity
-Complaint Tracking & Resolution System
-Default Admin Credentials
-Email: admin@gmail.com Password: admin123
+A **Java Swing + MySQL** based desktop application developed to manage and track university complaints efficiently.
 
-Developed By
-ISHA
+The system allows faculty members to submit complaints related to infrastructure, laboratories, electrical issues, internet problems, classroom facilities, and more, while administrators can monitor, prioritize, and resolve them through a dedicated dashboard.
+
+---
+
+## 🚀 Features
+
+### 👨‍🏫 Faculty Module
+- Faculty Registration & Login
+- Submit Complaints
+- Edit/Delete Own Complaints
+- Select Complaint Priority (Low / Medium / High)
+- View Complaint Status
+- Logout
+
+### 👨‍💼 Admin Module
+- Secure Admin Login
+- View All Complaints
+- Search Complaints by Category
+- View Faculty Name & Department
+- Resolve Complaints
+- Priority-Based Complaint Highlighting
+- Complaint Status Tracking
+
+---
+
+## 🛠 Technologies Used
+
+- Java Swing (Frontend)
+- Java JDBC
+- MySQL Database
+- MySQL Workbench
+- VS Code / IntelliJ IDEA
+
+---
+
+## 📂 Database Tables
+
+- `users`
+- `complaints`
+
+---
+
+## ✨ Project Highlights
+
+- Role-Based Login System
+- Session Management
+- CRUD Operations
+- Complaint Tracking & Resolution
+- Priority-Based Complaint Management
+- Clean User Interface
+- Real-Time Database Connectivity
+
+---
+
+## 🔑 Default Admin Credentials
+
+**Email**
+```
+admin@gmail.com
+```
+
+**Password**
+```
+admin123
+```
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of:
+- Login Page
+- Faculty Dashboard
+- Admin Dashboard
+- Complaint Form
+
+---
+
+## 📁 Project Structure
+
+```
+University_Complaint_Tracker
+│
+├── src
+│   ├── dao
+│   ├── database
+│   ├── model
+│   ├── ui
+│   └── util
+│
+├── database
+│   └── complaint_tracker.sql
+│
+└── README.md
+```
+
+---
+
+## 👩‍💻 Developed By
+
+**ISHA**
